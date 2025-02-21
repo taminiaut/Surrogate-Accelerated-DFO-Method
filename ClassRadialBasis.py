@@ -5,7 +5,7 @@
 
 """ Imports """
 import numpy as np
-from ClassModel import MyModel
+from classModel import MyModel
 
 """ Main code """
 class MyRadialBasis(MyModel):

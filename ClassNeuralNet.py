@@ -5,7 +5,7 @@
 
 """ Imports """
 import numpy as np
-from ClassModel import MyModel
+from classModel import MyModel
 
 """ Parameters """
 np.random.seed(0)  # Set the seed value for reproducibility

@@ -5,8 +5,8 @@
 
 """ Imports """
 import numpy as np
-from ClassNeuralNet import MyNeuralNet
-from ClassRadialBasis import MyRadialBasis
+from classNeuralNet import MyNeuralNet
+from classRadialBasis import MyRadialBasis
 
 """ Parameters """
 sigmaMin = 1e-2
