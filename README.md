@@ -9,7 +9,7 @@ The code is made of 5 files written in python :
 - classRadialBasis.py
 - example.py
 
-The file "example.py" is an example of call to the surrogate-accelerated derivative-free method. "classModel.py" describe a general class of surrogate model with the handling of training data and a method for minimizing the loss function. The files "classNeuralNet.py" and "classRadialBasis.py" contain respectively the implementation of the shallow neural network and radial basis function surrogates. The main code corresponding to the surrogate-accelerated DFO method is included in "methodWithSurrogate.py".
+The file "example.py" is an example of call to the surrogate-accelerated derivative-free method. "classModel.py" describe a general class of surrogate model with the handling of training data and a method for minimizing the loss function. The files "classNeuralNet.py" and "classRadialBasis.py" contain respectively the implementation of the shallow neural network and the radial basis function surrogates. The main code corresponding to the surrogate-accelerated DFO method is included in "methodWithSurrogate.py".
 
 The argument of the surrogate-accelerated DFO method are
 - f : the function to minimize
