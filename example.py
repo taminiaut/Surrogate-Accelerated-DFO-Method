@@ -8,13 +8,14 @@ import numpy as np
 from methodWithSurrogate import finiteDiffGradientWithSurrogate
 
 
-# Rosenbrock function
-f = lambda x: (1-x[0])**2 + 100*(x[1]-x[0]**2)**2
-x0 = np.array([0, 0])
+# Rosenbrock function with dimension n = 2*m
+m = 5
+f = lambda x: np.sum(100*(x[::2]**2-x[1::2])**2 + (x[::2]-1)**2)
+x0 = np.zeros(2*m)
 
 
 tol = 1e-4
-evalMax = 500
+evalMax = 200*m
 sobolev = True
 
 x1, f1 = finiteDiffGradientWithSurrogate(f,x0,evalMax,tol,"NeuralNet",sobolev)
